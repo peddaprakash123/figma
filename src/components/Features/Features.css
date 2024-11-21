@@ -1,0 +1,143 @@
+.features-container {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.features-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.features-subheading {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.features-button {
+  background-color: rgb(244, 239, 239);
+  border: 1px solid rgb(147, 143, 143);
+  color: #6941C6;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+
+
+.features-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.features-card {
+  background-color: #fff;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+
+.card-title {
+  font-size: 1.3rem;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  color: #6941C6;
+
+}
+
+
+.card-icon {
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-top: 50PX;
+}
+
+
+
+.image-container {
+  justify-content: center;
+  text-align: center;
+  margin-right: 500px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.desktop {
+  margin-right: -930px;
+
+}
+
+@media (min-width: 1024px) {
+  .image-container {
+    /* max-width: 10%; */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .image-container {
+    /* margin: 30px; */
+    margin: auto;
+    margin-bottom: -195px;
+
+
+  }
+
+  .desktop {
+    display: none;
+    justify-content: center;
+
+  }
+
+  .iphone {
+    align-self: center;
+
+
+  }
+}
